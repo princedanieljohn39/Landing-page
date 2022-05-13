@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+
+body ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 300px;
+}
+
+body li {
+  float: left;
+}
+
+body li a {
+  font-family: poppins;
+  font-size: small;
+  display: block;
+  color: #999999;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+body .dw a {
+  color: black;
+  margin-left: 200px;
+  font-weight: bolder;
+  background-color: #ffbb00;
+}
+
+body .hover {
+  display: inline-block;
+  position: relative;
+  color: #ffe600;
+}
+
+body .hover:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+body .hover:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+body .Headtext {
+  font-family: montserrat;
+  color: white;
+  font-size: 100px;
+  margin-left: 90px;
+  margin-top: 28px;
+  margin-bottom: 0px;
+  width: 570px;
+}
+
+body .Secondtext h1 {
+  font-family: montserrat;
+  color: white;
+  font-size: 95px;
+  margin-left: 500px;
+  margin-top: 0px;
+  width: 370px;
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
