@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 300px;
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    font-family: poppins;
+    font-size: small;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    // padding: 14px 16px;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+
+.dw a {
+    color: rgb(0, 0, 0);
+    margin-left: 200px;
+    font-weight: bolder;
+    background-color: rgb(255, 187, 0);
+  }
+
+.hover {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 230, 0);
+  }
+
+.hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+.hover:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.Headtext h1{
+    font-family: montserrat;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    margin-left: 150px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    width: 200px;
+  }
+
+.Headtext p{ 
+    color: rgb(153, 153, 153);
+    font-family: poppins;
+    font-size: smaller;
+    margin-top: 0px;
+    margin-left: 150px;
+} 
+
+.tw {
+    font-family: poppins;
+    font-size: smaller;
+    background-color:rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    border: rgb(255, 187, 0);
+    padding: 14px 30px 14px 30px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+  }
+
+.tw:hover {
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+  }
+
+.button {
+    font-family: poppins;
+    font-size: smaller;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    padding: 12px 25px 12px 25px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+  }
+  
+.button:hover {
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+  }
+
+.flex-container {
+    display: flex;
+    margin-left: 140px;
+  }
+  
+.flex-container div {
+    margin: 10px;
+  }
+}
