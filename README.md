@@ -1,2 +1,2 @@
 # Landing-page
-Landing page template
+<b>Landing page template</b>
