@@ -57,10 +57,11 @@ li a {
     font-family: montserrat;
     color: rgb(0, 0, 0);
     font-size: 80px;
-    margin-left: 150px;
+    margin-left: 88px;
     margin-top: 28px;
     margin-bottom: 0px;
     width: 200px;
+    padding-bottom: 0px;
   }
 
 .Headtext p{ 
@@ -68,7 +69,8 @@ li a {
     font-family: poppins;
     font-size: smaller;
     margin-top: 0px;
-    margin-left: 150px;
+    margin-left: 100px;
+    padding-top: 0px;
 } 
 
 .tw {
@@ -103,9 +105,29 @@ li a {
     color: rgb(255, 255, 255);
   }
 
+  .flex-container1 {
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .flex-container1 div {
+    margin: 10px;
+  }
+
+  .Headtext .flex-container1 .team-image{
+    display: flex;
+    margin-left: 130px;
+    box-shadow: 10px;
+  }
+
+  .Headtext .flex-container1 img{
+    width: 210px;
+    border-radius: 20px;
+  }
+
 .flex-container {
     display: flex;
-    margin-left: 140px;
+    margin-left: 90px;
   }
   
 .flex-container div {
